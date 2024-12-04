@@ -1,0 +1,65 @@
+*,::after,::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    background-color:white;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+
+}
+.logo img{
+    width: 100px;
+    border-radius: 50px;
+}
+.heading{
+    display: flex;
+    flex: 1;
+    margin: 0px 20px 0px 60px;
+}
+.heading h1{
+    color: white;
+    background-color: black;
+    letter-spacing: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    background: rgb(58,255,233);
+background: -moz-linear-gradient(90deg, rgba(58,255,233,1) 0%, rgba(244,180,180,1) 50%, rgba(233,16,229,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(58,255,233,1) 0%, rgba(244,180,180,1) 50%, rgba(233,16,229,1) 100%);
+background: linear-gradient(90deg, rgba(58,255,233,1) 0%, rgba(244,180,180,1) 50%, rgba(233,16,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3affe9",endColorstr="#e910e5",GradientType=1);
+padding: 5px;
+}
+.icon img{
+    margin-left: 10px;
+    width: 100px;
+}
+#you{
+    border-radius: 20%;
+    filter: drop-shadow(100%);
+    margin-bottom: 15px;
+}
